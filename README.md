@@ -1,24 +1,20 @@
 Description
 ===========
 
-Installs and configures a basic Hadoop cluster in pseudo mode. It is for only Linux systems (Redhat/centos) and has been tested on RHEL 6.3 (64 bit).
-Internet is required while apllying this cookbook.
+Install vargant and virtual box, then provision a VM [with precise32 box] with jdk, mysql and tomcat7 configuration and a simple war deployed on tomcat.
+Server port 8080 is accessible through public network of host machine.
+VM is configured with Private IP 192.168.0.2 and is accessible form host only.
 
-Requirements
-============
 
-Internet is required.
- 
 Platform
---------
+========
 
-Tested on Redhat 6.3 (64 bit)
-CentOS/Redhat (32/64 bit)
+Tested on Ubuntu 12.04
 
 Usage
 ==============
 
-apply setup_hadoop recipe on node.
+apply default recipe on node.
 
 Author
 ==================
