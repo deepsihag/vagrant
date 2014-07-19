@@ -8,8 +8,8 @@ bash "install_vagrant" do
   EOH
 end
 
-cookbook_file "Vagrantfile" do
-  path "/test/Vagrantfile"
+template "/test/Vagrantfile" do
+  source "Vagrantfile.erb"
   action :create_if_missing
 end
 
