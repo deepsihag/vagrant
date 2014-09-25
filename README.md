@@ -9,7 +9,7 @@ VM is configured with Private IP 192.168.0.2 and is accessible from host only.
 Platform
 ========
 
-Debian Linux, Tested on Ubuntu 12.04
+Debian Linux, Tested on Ubuntu 12.04.
 
 Usage
 ==============
