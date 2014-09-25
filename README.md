@@ -2,6 +2,7 @@ Description
 ===========
 
 Install vagrant and virtual box, then provision a VM [with precise32 box] with jdk, mysql and tomcat7 configuration and a simple war deployed on tomcat.
+
 Server port 8080 is accessible through public network of host machine.
 VM is configured with Private IP 192.168.0.2 and is accessible from host only.
 
@@ -9,7 +10,7 @@ VM is configured with Private IP 192.168.0.2 and is accessible from host only.
 Platform
 ========
 
-Debian Linux, Tested on Ubuntu 12.04
+Debian Linux, Tested on Ubuntu 12.04.
 
 Usage
 ==============
